@@ -1,0 +1,59 @@
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.primary:hover {
+  opacity: 0.8;
+  color: white;
+}
+.default {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+}
+
+.default:hover {
+  background-color: #fff;
+  border-color: blue;
+  color: blue;
+}
+.dashed {
+  border: 1px dashed #333;
+  background-color: #fff;
+  color: #333;
+}
+.dashed:hover {
+  background-color: #fff;
+  border-color: blue;
+  color: blue;
+}
+.text {
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+.text:hover {
+  background-color: #ccc;
+}
+.link {
+  border: none;
+  background-color: #fff;
+  color: blue;
+  text-decoration: underline;
+}
+.link:hover {
+  opacity: 0.8;
+}
